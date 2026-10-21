@@ -1,0 +1,27 @@
+From: PayPal Security <notice@example-fake-bank-login.top>
+Reply-To: account-help@another-fake-domain.top
+Return-Path: <mailer-fake@mailer-fake-domain.top>
+To: analyst@example.test
+Subject: URGENT: verify your account immediately
+Authentication-Results: mx.example.test; spf=fail; dkim=none; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="phishscope-boundary"
+
+--phishscope-boundary
+Content-Type: text/plain; charset="utf-8"
+
+Your account will be closed. Verify your password immediately at http://192.0.2.15/login
+If you do not act within 24 hours, your account will be suspended.
+
+--phishscope-boundary
+Content-Type: text/html; charset="utf-8"
+
+<p>Sign in at <a href="http://192.0.2.15/login">www.paypal.com</a></p>
+
+--phishscope-boundary
+Content-Type: application/octet-stream
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+Content-Transfer-Encoding: base64
+
+U2FtcGxlIGZpbGUgY29udGVudC4gVGhpcyBpcyBub3QgYW4gZXhlY3V0YWJsZS4=
+--phishscope-boundary--

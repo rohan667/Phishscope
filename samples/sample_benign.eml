@@ -1,0 +1,9 @@
+From: Team Updates <updates@example.test>
+To: analyst@example.test
+Subject: Weekly team notes
+Authentication-Results: mx.example.test; spf=pass; dkim=pass; dmarc=pass
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hello team,
+The weekly notes are available on the internal portal. Have a good week.
